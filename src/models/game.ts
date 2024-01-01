@@ -1,13 +1,13 @@
 export class Game {
 
-    public players: string[] = ['Hans', 'Tobi', 'Peter', 'Freddy'];
+    public players: string[] = [    ];
     public stack: string[] = [];
     public playedCards: (string | undefined)[] = [];
     public currentPlayer: number = 0;
 
     constructor() {
         for (let i = 1; i <= 13; i++) {
-            this.stack.push('ace_' + i)
+            this.stack.push('spades_' + i)
             this.stack.push('clubs_' + i)
             this.stack.push('diamonds_' + i)
             this.stack.push('hearts_' + i)

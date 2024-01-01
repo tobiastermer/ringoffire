@@ -2,7 +2,7 @@
     width: 100vw;
     max-width: 100%;
     height: 100vh;
-    background-image: url('/assets/img/playground.jpg');
+    background-image: url('./../../assets/img/playground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -55,4 +55,17 @@
 .player-position {
     position: absolute;
     right: 0;
+}
+
+.btn-add {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+
+.pin-bottom {
+    position: absolute;
+    bottom: 32px;
+    left: 100px;
+    right: 100px;
 }

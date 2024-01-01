@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 export class PlayerComponent {
 
   @Input() name?:string;
+  @Input() activePlayer: boolean = false;
 
 
 
